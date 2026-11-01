@@ -1,0 +1,28 @@
+.landing-page {
+  background-image: url('https://images.unsplash.com/photo-1470058869958-2a77ade41c02');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+.get-started-btn {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}
